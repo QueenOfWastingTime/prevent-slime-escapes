@@ -1,0 +1,8 @@
+/home/lars/RiderProjects/PreventSlimeEscapes/PreventSlimeEscapes/bin/Debug/net6.0/PreventSlimeEscapes.deps.json
+/home/lars/RiderProjects/PreventSlimeEscapes/PreventSlimeEscapes/bin/Debug/net6.0/PreventSlimeEscapes.dll
+/home/lars/RiderProjects/PreventSlimeEscapes/PreventSlimeEscapes/obj/Debug/net6.0/PreventSlimeEscapes.csproj.AssemblyReference.cache
+/home/lars/RiderProjects/PreventSlimeEscapes/PreventSlimeEscapes/obj/Debug/net6.0/PreventSlimeEscapes.GeneratedMSBuildEditorConfig.editorconfig
+/home/lars/RiderProjects/PreventSlimeEscapes/PreventSlimeEscapes/obj/Debug/net6.0/PreventSlimeEscapes.AssemblyInfoInputs.cache
+/home/lars/RiderProjects/PreventSlimeEscapes/PreventSlimeEscapes/obj/Debug/net6.0/PreventSlimeEscapes.AssemblyInfo.cs
+/home/lars/RiderProjects/PreventSlimeEscapes/PreventSlimeEscapes/obj/Debug/net6.0/PreventSlimeEscapes.csproj.CoreCompileInputs.cache
+/home/lars/RiderProjects/PreventSlimeEscapes/PreventSlimeEscapes/obj/Debug/net6.0/PreventSlimeEscapes.dll

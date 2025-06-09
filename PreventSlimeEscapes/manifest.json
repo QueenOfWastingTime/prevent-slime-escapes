@@ -1,0 +1,10 @@
+{
+  "Name": "Prevent Slime Escapes",
+  "Author": "Queen and Qu",
+  "Version": "1.0.0",
+  "Description": "Prevents slimes outside the hutch from escaping over night.",
+  "UniqueID": "QueenAndQu.PreventSlimeEscapes",
+  "EntryDll": "PreventSlimeEscapes.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}

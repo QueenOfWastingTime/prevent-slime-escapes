@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "H9YLoy85fVA=",
+  "success": true,
+  "projectFilePath": "/home/lars/RiderProjects/PreventSlimeEscapes/PreventSlimeEscapes/PreventSlimeEscapes.csproj",
+  "expectedPackageFiles": [
+    "/home/lars/.nuget/packages/pathoschild.stardew.modbuildconfig/4.4.0/pathoschild.stardew.modbuildconfig.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
