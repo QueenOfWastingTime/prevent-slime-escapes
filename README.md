@@ -32,3 +32,10 @@ if (characters.Count > 5)
 And all that our mod does is change the "5" in `if (characters.Count > 5)` to the maximum integer, causing the if condition to never be satisfied and the code to always be skipped.  
 
 You can look at our mod code in this repo and a compiled version in the releases.
+
+## Installation
+
+This is a SMAPI mod so:
+
+ - Install [SMAPI](https://stardewvalleywiki.com/Modding:Player_Guide/Getting_Started#Install_SMAPIhttps://stardewvalleywiki.com/Modding:Player_Guide/Getting_Started#Install_SMAPI)
+ - Unpack the zip from the newest release to the mods folder created when installing SMAPI
