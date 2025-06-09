@@ -21,11 +21,11 @@ namespace PreventSlimeEscapes
 
             harmony.Patch(
                 original: AccessTools.Method(typeof(Farm), nameof(Farm.DayUpdate)),
-                transpiler: new HarmonyMethod(typeof(ModEntry), nameof(skipSlimeEsc_Transpile))
+                transpiler: new HarmonyMethod(typeof(ModEntry), nameof(skipSlimeEsc_Transpiler))
             );
         }
 
-        public static IEnumerable<CodeInstruction> skipSlimeEsc_Transpile(IEnumerable<CodeInstruction> instructions)
+        public static IEnumerable<CodeInstruction> skipSlimeEsc_Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             CodeMatcher matcher = new(instructions);
             MethodInfo getCount =
@@ -37,7 +37,7 @@ namespace PreventSlimeEscapes
                     new CodeMatch(OpCodes.Callvirt, getCount),
                     new CodeMatch(OpCodes.Ldc_I4_5)
                 )
-                .ThrowIfNotMatch($"Could not find entry point for {nameof(skipSlimeEsc_Transpile)}")
+                .ThrowIfNotMatch($"Could not find entry point for {nameof(skipSlimeEsc_Transpiler)}")
                 .Advance(3);
 
             matcher.RemoveInstruction()
